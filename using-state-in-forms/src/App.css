@@ -2,9 +2,17 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-style: solid blue 20px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    margin-top: 30px;
 }
 
 label {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+button {
+    width: 75px;
+    margin-bottom: 20px;
 }

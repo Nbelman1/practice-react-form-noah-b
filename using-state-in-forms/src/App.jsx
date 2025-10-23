@@ -39,19 +39,31 @@ function App() {
           </label>
           <label>
             Feedback:
-            <input
-              type="text"
+            <textarea
+              rows="4"
+              cols="50"
+              placeholder="Enter your feedback here."
               name="feedback"
               value={formData.feedback}
               onChange={handleChange} />
           </label>
+
+          {/* TODO: make button hidden when feedback field is empty */}
+          <div>
+            <button>
+              Submit
+            </button>
+          </div>
+
         </form>
+
         <div style={{ textAlign: "center", marginTop: "20px" }}>
           <h2>Preview:</h2>
           <p>Name: {formData.name}</p>
           <p>Email: {formData.email}</p>
           <p>Feedback: {formData.feedback}</p>
         </div>
+
       </div>
     </>
   )
