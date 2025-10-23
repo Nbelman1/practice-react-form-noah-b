@@ -1,0 +1,10 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-style: solid blue 20px;
+}
+
+label {
+    margin-bottom: 50px;
+}
